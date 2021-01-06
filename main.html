@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="main.js" ></script>
+    <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Somando</title>   
+</head>
+<body>
+    <h1>Calculando</h1>
+    Escolha Uma Operação
+    
+    <div id="editI">
+        <select class="form-select" id="sel">
+            <option id="S">Soma</option>
+            <option id="Sb" >Subtração</option>
+            <option id="M" >Multiplicação</option>
+            <option id="D">Divisão</option>        
+        </select>
+    </div>
+   
+    <div id="editII">
+        <p> Coloque o Primeiro Número </p>
+        <input class="form-control me-2" type="number" id="n1">
+        <p> Coloque o Segundo Número </p>
+        <input class="form-control me-2" type="number" id="n2">
+        <p><button class="btn btn-outline-info btn-lg" onclick="Calcular()">Calcular</button></p>
+    
+        <label id= "res"> </label>
+    </div>
+</body>
+</html>
